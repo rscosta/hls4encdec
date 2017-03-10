@@ -33,6 +33,11 @@ Build the hls4encdec
   $ sudo apt-get install ffmpeg
 ```
 
+- Use the following command to install additional required tools for playing the hls streaming (vlc): 
+```
+  $ sudo apt-get install vlc
+```
+
 ###Build the hls4encdec
 The following steps describe how to build the hls4endec application.
 
@@ -100,5 +105,10 @@ encrypted_video/videoSequence7.ts, 0.001882
 encrypted_video/videoSequence8.ts, 0.001725
 encrypted_video/videoSequence9.ts, 0.002019
 ```
-
+Test Decrypted Video
+-------------------------
+For playing the decrypted video, enter the following command to run the vlc player:
+```
+$ vlc <DECRYPTED_PATH>/<HLS_MANIFEST_FILENAME>.m3u8
+```
 
