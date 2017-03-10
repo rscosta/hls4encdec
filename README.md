@@ -48,7 +48,9 @@ The following steps describe how to build the hls4endec application.
 ```
 
 The script file for generating hls chunks (gen_hls.sh) and hls4encdec application will be saved into ``bin`` folder.
- 
+
+Run the hls4encdec
+--------------------
 ###Generating HLS chunks for VOD Type
 To generate the HLS chunk for VOD Type, enter the following commands:
 ```
