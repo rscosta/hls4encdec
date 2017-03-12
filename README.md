@@ -3,7 +3,7 @@ HLS for Encryption and Decryption - hls4encdec
 
 Introduction
 ------------
-hls4encdec is an application for encryption and decryption HLS chunks. 
+hls4encdec is an application for encrypting and decrypting HLS chunks using OpenSSL library. 
 
 The encryption and decryption are done by OpenSSL functions. 
 
